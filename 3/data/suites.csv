@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 14 22:01:35 GMT 2024","Thu Nov 14 22:01:35 GMT 2024","1","","test_test_processor","","","","test_capitalize_text[123-123]",""
+"passed","Thu Nov 14 22:01:35 GMT 2024","Thu Nov 14 22:01:35 GMT 2024","1","","test_test_processor","","","","test_count_words",""
+"passed","Thu Nov 14 22:01:35 GMT 2024","Thu Nov 14 22:01:35 GMT 2024","0","","test_test_processor","","","","test_is_palindrome",""
+"passed","Thu Nov 14 22:01:35 GMT 2024","Thu Nov 14 22:01:35 GMT 2024","0","","test_test_processor","","","","test_capitalize_text[HELLO-Hello]",""
+"passed","Thu Nov 14 22:01:35 GMT 2024","Thu Nov 14 22:01:35 GMT 2024","0","","test_test_processor","","","","test_capitalize_text[hello-Hello]",""
