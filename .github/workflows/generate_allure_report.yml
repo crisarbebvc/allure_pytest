@@ -26,6 +26,14 @@ jobs:
       - name: Run tests and generate Allure results  
         run: |  
           python -m pytest --alluredir=allure-results  
+
+      - name: Load test report history
+        uses: actions/checkout@v3
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
   
       - name: Generate Allure report  
         uses: simple-elf/allure-report-action@v1.7  
