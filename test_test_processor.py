@@ -1,10 +1,5 @@
 import pytest  
-from test_processor.test_processor import (  
-    count_words,  
-    reverse_string,  
-    is_palindrome,  
-    capitalize_text,  
-)  
+from test_processor import count_words, reverse_string, is_palindrome, capitalize_text
   
   
 def test_count_words():  
